@@ -1,0 +1,14 @@
+{
+  "name": "me-creative",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site e portfolio da ME Creative",
+  "scripts": {
+    "build": "node --check dist/script.js",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
